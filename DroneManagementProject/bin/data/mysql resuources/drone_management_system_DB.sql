@@ -45,6 +45,9 @@ PRIMARY KEY(id)
 
 INSERT INTO locations(x_coordinate,y_coordinate)
 VALUES(42,42);
+INSERT INTO locations(x_coordinate,y_coordinate)
+VALUES(0,0);
+INSERT INTO drones(location_id,battery,capacity,charging_rate)VALUES((SELECT id FROM locations WHERE x_coordinate = 0,y_coordinate = 0),2000,500,5);
 INSERT INTO warehouses(location_id)
 VALUES((SELECT id FROM locations WHERE x_coordinate = 42 AND y_coordinate = 42));
 

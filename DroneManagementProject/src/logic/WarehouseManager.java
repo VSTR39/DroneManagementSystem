@@ -6,7 +6,6 @@ import java.util.LinkedList;
 import data.DatabaseConnectionUtilities;
 import data.DatabaseConnectionUtilitiesException;
 import data.Product;
-import data.Warehouse;
 
 public class WarehouseManager implements WarehouseManagerInterface {
 	private LinkedList<Product> mProducts;

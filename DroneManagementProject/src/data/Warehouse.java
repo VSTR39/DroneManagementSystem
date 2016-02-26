@@ -1,9 +1,5 @@
 package data;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.util.LinkedList;
 
 public class Warehouse {
 	/**
@@ -26,4 +22,13 @@ public class Warehouse {
 		this.mWarehouseID = warehouseID;
 		this.mWarehouseLocationID = warehouseLocationID;
 	}
+
+	public int getWarehouseID() {
+		return mWarehouseID;
+	}
+
+	public int getWarehouseLocationID() {
+		return mWarehouseLocationID;
+	}
+	
 }

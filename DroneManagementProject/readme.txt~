@@ -1,5 +1,5 @@
 TO DO:
 Write Validation functions for data package;
-DroneManager needs refactoring;
+Write makeDelivery();
 Create I/O classes ;
 Test and Commend everything;
